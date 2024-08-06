@@ -7,12 +7,12 @@ sei o básico de Python e PHP com Mysql</li>
 
 <h2>Instrucções de uso do site: </h2>
 
-<li>Ao clicar na imagem no canto superior esquerdo do header ousuário é direcionado para o site oficial do Agrinho</li>
+<li>Ao clicar na imagem no canto superior esquerdo do header o usuário é direcionado para o site oficial do Agrinho</li>
 
 <li>No canto superior esquerdo, o usuário poderá clicar no ícone da sidebar e ter acesso ao menu de atalhos para os conteúdos da página
 em que ele está, e ao também terá acesso a escolha de fundo preto ou branco no site para facilitar a leitura do usuário</li>
 
-<li>Em cada tópico no Index o usuário tem a opção de <strong>"Saiba Mais"</strong> caso ele fique mais interresado em determinado assunto</li>
+<li>Em cada tópico no Index o usuário tem a opção de <strong>"Saiba Mais"</strong> caso ele fique interresado em determinado assunto</li>
 
 <li>No rodapé estará disponível o meu email @escola e os links de todos os sites que eu usei textos como referências ou das imagens que eu utilizei no site</li>
 
