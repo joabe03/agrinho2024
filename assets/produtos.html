@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produtos.css">
+    <title>Produtos Agrícolas</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.sistemafaep.org.br/agrinho/"><img src="../imgs/download.jpeg" alt="Site agrinho"></a>
+        <div class="titulo"><h1>Agrinho: Produtos Agrícolas</h1></div>
+        
+        <a href="../index.html" class="Home">Home</a>
+
+
+        <nav>
+            <img src="../imgs/icon.png" width="30px" height="30px" alt="Icon sidebar">
+            
+            
+            
+            <div class="texto">
+                <section>
+                <button><a href="#cana">Cana-de-açúcar</a></button>
+                <button><a href="#cafe">Café</a></button>
+                <button><a href="#soja">Soja</a></button>
+                <button><a href="#bovinos">Bovinos</a></button>
+
+                <div class="btn">
+                    <input type="checkbox" name="" id="preto">
+                    <label for="preto">Fundo Preto/Branco</label>
+                </div>
+                </section>
+            </div>
+
+
+        </nav>
+
+        
+    </header>
+
+
+    <hr>
+    <center><h1>Protudos Agrícolas</h1></center>
+    <hr>
+
+
+    <center><h3> A agricultura é uma atividade de grande importância alimentícia, estratégica e econômica. A produção de alimentos é de suma importância, tanto para o suprimento das sociedades quanto para o fornecimento de matérias-primas.</h3></center>  <br><br>
+
+    <div class="conteudo">
+
+        <div id="cana"></div>
+        <h2>Cana-de-açúcar</h2>
+        <p> A cana-de-açúcar é o primeiro produto cultivado em larga escala na história da agricultura brasileira. Foi um sistema de plantio estabelecido pelos portugueses no país durante o período colonial, principalmente na região Nordeste. Naquela época, o objetivo do cultivo era produzir açúcar para venda no mercado externo. Atualmente, além desta mercadoria, a cana-de-açúcar é utilizada para a produção de etanol, cuja importância econômica e política ganha cada vez mais destaque no contexto geopolítico internacional dos combustíveis e da energia.</p>
+
+        <center><img src="../imgs/cana.png" alt="Foto de Cana-de-açúcar"></center> <br><br>
+
+        <div id="cafe"></div>
+        <h2>Café</h2>
+        <p>Um dos produtos mais significativos da agroeconômica brasileira foi o café, que teve um período de auge no final do século XIX e início do século XX até a Grande Depressão de 1929, quando passou a sofrer um certo declínio. Ainda assim, a produção de café no país continuou a aumentar e, embora não seja mais o principal produto agrícola do país, representa quase 10% das exportações do agronegócio. Ao todo, quase 70% da produção de café no Brasil é destinada ao mercado internacional.</p>
+
+        <center><img src="../imgs/cafe.jpg" alt="Foto de gãos de café"></center> <br><br>
+
+        <div id="soja"></div>
+        <h2>Soja</h2>
+        <p>Os Estados Unidos dominam a produção mundial de soja, mas a soja é o principal produto agrícola do Brasil. Ela ocupa a maior parte das terras cultiváveis do Brasil e responde por mais de 9% de toda a balança comercial do país. Sua maior parte de seus produtos é destinada ao mercado internacional. A produção de soja no Brasil é vantajosa porque ocorre durante o período de entressafra nos países do norte, onde a exportação é feita em maior quantidade para alimentar rebanhos em países desenvolvidos.</p>
+
+        <center><img src="../imgs/soja.jpg" alt="Foto de Planta de Soja"></center> <br><br>
+
+        <div id="bovinos"></div>
+        <h2>Bovinos</h2>
+        <p>Com mais de 200 milhões de cabeças de gado, o Brasil supera os Estados Unidos e é o segundo maior rebanho bovino do mundo. Além disso, é o país que mais exporta carne bovina. Além da carne, o Brasil também produz leite de alta qualidade, principalmente para uso no mercado interno.</p>
+
+        <center><img src="../imgs/bovinos.jpg" alt="Fotos de Bovinos"></center> <br><br>
+
+    </div>
+
+
+    <footer>
+        <center><h2>@copyright Joabe Felipe Ferreira Albino</h2></center>
+
+        <p>Email: joabe.albino@escola.pr.gov.br</p>
+
+        <center><a href="">Créditos</a></center>
+
+        <div class="patrocinio">
+            <a href="https://www.sistemafaep.org.br/agrinho/">Agrinho</a>
+
+            <a href="https://www.sistemafaep.org.br/">FAEP</a>
+
+            <a href="https://ead.senar.org.br/matriculas-abertas?utm_source=google&utm_medium=cpc&utm_campaign=ga-conversao-matriculas-abertas&utm_source=google&utm_medium=cpc&utm_campaign=DOT-SENARNA_matriculas-abertas&gad_source=1&gclid=Cj0KCQjwh7K1BhCZARIsAKOrVqHfOJs4cwRVnwjRHflZDnmC2ER4mwlxC94KKvRSOkHSaZpNcmfCzJIaAgOzEALw_wcB">Senar</a>
+
+            <a href="https://www.nre.seed.pr.gov.br/modules/conteudo/conteudo.php?conteudo=935">NRE Cascavel</a>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        const btn = document.getElementById("preto");
+
+        btn.addEventListener("change", (e) => {
+            document.body.classList.toggle("dark", e.target.checked);
+            
+          
+        });
+    </script>
+</body>
+</html>

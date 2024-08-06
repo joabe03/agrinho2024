@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="maquinas.css">
+    <title>Máquinas Agrícolas</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.sistemafaep.org.br/agrinho/"><img src="../imgs/download.jpeg" alt="Site agrinho"></a>
+        <div class="titulo"><h1>Agrinho: Máquinas Agrícolas</h1></div>
+        
+        <a href="../index.html" class="Home">Home</a>
+
+
+        <nav>
+            <img src="../imgs/icon.png" width="30px" height="30px" alt="Icon sidebar">
+            
+            
+            
+            <div class="texto">
+                <section>
+                <button><a href="#trator">Trator</a></button>
+                <button><a href="#colheitadeira">Colheitadeira</a></button>
+                <button><a href="#plantadeira">Plantadeira</a></button>
+                <button><a href="#semeadeira">Semeadeira</a></button>
+
+                <div class="btn">
+                    <input type="checkbox" name="" id="preto">
+                    <label for="preto">Fundo Preto/Branco</label>
+                </div>
+                </section>
+            </div>
+
+
+        </nav>
+
+        
+    </header>
+
+    <hr>
+    <h1><strong><center>Máquinas Agrícolas</center></strong></h1>
+    <hr>
+
+
+    <center><h3>Os equipamentos agrícolas são essenciais para facilitar e aumentar a produtividade no campo. Atualmente existem diversas máquinas e implementos que auxiliam em diversos processos do trabalho no campo.</h3></center>
+
+    <br><br>
+
+    <div class="conteudo">
+        <div id="trator"></div>
+        <h2>Trator</h2>
+        <p>Sua função é fornecer propulsão motorizada aos implementos que realizam algum tipo de trabalho mais específico, como arar, cultivar e plantas campos, tendo os mais modernos a capacidade também de cuidar da rotina de gramados, da manutenção de paisagem e de espalhar fertilizantes em arbustos.</p>
+
+        <center><img src="../imgs/trator.png" alt="Imagem de um Trator"></center>
+        <br><br>
+
+        <div id="colheitadeira"></div>
+        <h2>Colheitadeira</h2>
+        <p>Uma colheitadeira reúne as tarefas de colheita e limpeza de grãos, sejam eles milho, linhaça, aveia ou trigo. Seu design e funcionalidade variam dependendo do produto que serão manuseados. Porém, a finalidade deste equipamento é permitir que o grão cortado caia na colhedora e seja transportado pela garganta do alimentador, conseguindo assim a separação do grão e da palha.</p>
+
+        <center><img src="../imgs/maquinas (4).jpg" alt="Imagem de uma Colheitadeira"></center>
+        <br><br>
+
+
+        <div id="plantadeira"></div>
+        <h2>Plantadeira</h2>
+        <p>Com este dispositivo é possível definir condições de disposição e espaçamento entre mudas. Isto é essencial para organizar e aproveitar melhor as terras cultivadas e evitar desperdícios.</p>
+
+        <center><img src="../imgs/plantadeira.jpg" alt="Imagem de uma Plantadeira"></center>
+        <br><br>
+
+
+        <div id="semeadeira"></div>
+        <h2>Semeadeira</h2>
+        <p>A semeadeira é uma máquina que, acoplada a um trator agrícola, realiza operações de semeadura para introduzir no solo sementes de plantas para o cultivo de alimentos como feijão, soja, milho, trigo e aveia. De modo geral, as semeadoras são utilizadas para semear sementes pequenas, o que é a maior diferença das plantadeiras que semeiam sementes maiores.</p>
+
+        <center><img src="../imgs/semeadeira.jpg" alt="Imagem de uma semeadeira"></center>
+    </div>
+
+    <footer>
+        <center><h2>@copyright Joabe Felipe Ferreira Albino</h2></center>
+
+        <p>Email: joabe.albino@escola.pr.gov.br</p>
+
+        <center><a href="">Créditos</a></center>
+
+        <div class="patrocinio">
+            <a href="https://www.sistemafaep.org.br/agrinho/">Agrinho</a>
+
+            <a href="https://www.sistemafaep.org.br/">FAEP</a>
+
+            <a href="https://ead.senar.org.br/matriculas-abertas?utm_source=google&utm_medium=cpc&utm_campaign=ga-conversao-matriculas-abertas&utm_source=google&utm_medium=cpc&utm_campaign=DOT-SENARNA_matriculas-abertas&gad_source=1&gclid=Cj0KCQjwh7K1BhCZARIsAKOrVqHfOJs4cwRVnwjRHflZDnmC2ER4mwlxC94KKvRSOkHSaZpNcmfCzJIaAgOzEALw_wcB">Senar</a>
+
+            <a href="https://www.nre.seed.pr.gov.br/modules/conteudo/conteudo.php?conteudo=935">NRE Cascavel</a>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        const btn = document.getElementById("preto");
+
+        btn.addEventListener("change", (e) => {
+            document.body.classList.toggle("dark", e.target.checked);
+            
+          
+        });
+    </script>
+</body>
+</html>
