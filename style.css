@@ -314,7 +314,7 @@ footer a:hover{
 
 @media (min-width: 769px) and (max-width: 834px){
     header{
-        background-image: url(../imgs/sol.jpg);
+        background-image: url(imgs/sol.jpg);
         background-repeat: no-repeat;
         background-size: 100vw 80vh;
         position: relative;
@@ -375,7 +375,7 @@ footer a:hover{
 
 @media (min-width: 320px) and (max-width: 480px){
     header{
-        background-image: url(../imgs/sol.jpg);
+        background-image: url(imgs/sol.jpg);
         background-repeat: no-repeat;
         background-size: 100vw 85vh;
         position: relative;
