@@ -11,7 +11,7 @@ body.dark{
     padding: 0;
 }
 header{
-    background-image: url(../imgs/sol.jpg);
+    background-image: url(imgs/sol.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 80vh;
     position: relative;
