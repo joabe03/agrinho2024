@@ -5,7 +5,7 @@
 <li>Sobre mim: Estou no 3º ano de Desenvolvimento de Sistemas do CEEP, sei html, css e um pouco de JS,
 sei o básico de Python e PHP com Mysql</li>
 
-<h2>Instrucções de uso do site: </h2>
+<h2>Instruções de uso do site: </h2>
 
 <li>Ao clicar na imagem no canto superior esquerdo do header o usuário é direcionado para o site oficial do Agrinho</li>
 
@@ -16,6 +16,6 @@ em que ele está, e ao também terá acesso a escolha de fundo preto ou branco n
 
 <li>No rodapé estará disponível o meu email @escola e os links de todos os sites que eu usei textos como referências ou das imagens que eu utilizei no site</li>
 
-<li>E também terá links para o site do Agrinho, FAEP, Senar e para o Núcleo regional de educação de Cascavel - PR  </li>
+<li>E também terá links para o site do Agrinho, Ceep, FAEP, Senar e para o Núcleo regional de educação de Cascavel - PR  </li>
 
 <li>E no repertório do github tem a página créditos onde também estará os links de todos os sites que eu usei de referência</li>
